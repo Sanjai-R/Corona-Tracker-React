@@ -1,0 +1,29 @@
+
+.card {
+    margin: 0 2% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+  }
+  @media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+
+    }
+  }
+
+  .infected {
+    
+    color: #ffd900 !important;
+    
+  }
+  
+  .recovered{
+    color:#1db954 !important
+  }
+  
+  .deaths{
+    color:rgba(255,0,0,0.7) !important
+  }
